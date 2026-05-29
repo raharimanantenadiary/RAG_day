@@ -2,6 +2,9 @@ import os
 
 from groq import Groq
 from google import genai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 def test_groq():
